@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+
+}
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    background-color: #555;
+}
+
+
+img{
+
+    max-width: 100%;
+
+}
+
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+
+background-image: url(images/bg.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+min-height: 60vh;
+padding: 80px 0;
+
+}
+
+
+.Menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+color: #ff5a2c;
+font-size: 25px;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.Menu .navbar ul li{
+     position: relative;
+     float: left;
+}
+
+.Menu .navbar ul li {
+      font-size: 18px;
+      padding: 20px;
+      color: #FFFFFF;
+      font-weight: 600;
+      display: block;
+}
+
+.Menu .navbar ul li a:hover{
+   color: #ff5a2c;
+}
+
+#menu {
+   display: none;
+
+}
+
+.Menu-icono {
+   width: 25px;
+}
+
+.Menu label {
+   cursor: pointer;
+   display: none;
+}
+
+.header-content {
+    display: flex;
+
+}
+
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+
+.header-txt span {
+    color: #FFFFFF;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: #e0e0e0;
+    margin-bottom: 45px;
+}
+
+
+.popular {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.popular-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.popular-content img {
+    width: 50px;
+    
+}
+
+.producto-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+}
+
+.producto-1 {
+    background-color: bisque;
+}
+
+.price p {
+    font-size: 17px;
+    color: #ff5a2c;
+}
+
+.btn2 {
+  padding: 5px 25px;
+  background-color: #ff5a2c;
+  margin-right: 0;
+
+
+}
+
+.buttons {
+    justify-content: center;
+}
+
+.producto {
+   padding: 30px;
+
+}
+
+.producto-content {
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px
+}
+
+.producto-1 img {
+    width: 100%;
+}
+
+
+
+
+
